@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Éclat | Luxury Salon</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- 1. Preloader -->
+  <div class="preloader">
+    <div class="preloader-logo">MAISON ÉCLAT</div>
+  </div>
+
+  <!-- 2. Sticky Nav -->
+  <nav class="main-nav">
+    <div class="nav-brand">MAISON ÉCLAT</div>
+    <div class="nav-links">
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#story" class="nav-link">Our Story</a>
+      <a href="#testimonials" class="nav-link">Clientele</a>
+    </div>
+    <div class="nav-cta">
+      <button class="btn btn-outline" data-cursor="hover">Book Now</button>
+    </div>
+  </nav>
+
+  <!-- 3. Hero — Window Zoom-In Effect -->
+  <section class="hero" id="hero">
+    <div class="hero-window">
+      <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1521590832167-7bfcfaa6362f?auto=format&fit=crop&w=1920&q=80')"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="display-text split-text">REVEAL<br>YOUR<br>ESSENCE</h1>
+      <p class="hero-subtitle">The apex of modern beauty, curated for the elite.</p>
+    </div>
+  </section>
+
+  <!-- 4. Horizontal Parallax Text -->
+  <section class="marquee-section">
+    <div class="marquee-container">
+      <h2 class="marquee-text">ELEGANCE. REDEFINED. ELEGANCE. REDEFINED.</h2>
+    </div>
+  </section>
+
+  <!-- 5. Services Pin & Reveal -->
+  <section class="services-section" id="services">
+    <div class="services-container">
+      <div class="section-header center">
+        <span class="accent-label">Our Expertise</span>
+        <h2 class="section-title split-text">Bespoke Services</h2>
+      </div>
+      <div class="cards-wrapper">
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="card-content">
+            <h3>Hair Artistry</h3>
+            <p>Sculpted perfection tailored to your features.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="card-content">
+            <h3>Skin Alchemy</h3>
+            <p>Revitalizing treatments using rare botanicals.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="card-content">
+            <h3>The Ritual</h3>
+            <p>A transcendent sensory experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Image Crossfade Story Section -->
+  <section class="story-section" id="story">
+    <div class="story-container">
+      <div class="story-images">
+        <div class="story-img-wrap"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=80" alt="Salon detail 1"></div>
+        <div class="story-img-wrap"><img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80" alt="Salon detail 2"></div>
+        <div class="story-img-wrap"><img src="https://images.unsplash.com/photo-1516975080661-46bfa2c281c7?auto=format&fit=crop&w=1200&q=80" alt="Salon detail 3"></div>
+      </div>
+      <div class="story-content">
+        <div class="story-caption">
+          <h3>Craftsmanship</h3>
+          <p>Every stroke, a testament to mastery.</p>
+        </div>
+        <div class="story-caption">
+          <h3>Sanctuary</h3>
+          <p>An oasis of tranquility in the metropolis.</p>
+        </div>
+        <div class="story-caption">
+          <h3>Legacy</h3>
+          <p>Defining luxury aesthetics for over a decade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Stats Counter Scrub -->
+  <section class="stats-section">
+    <div class="stat-item">
+      <span class="stat-number" data-target="14">0</span>
+      <span class="stat-label">Years of Excellence</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number" data-target="3000" data-suffix="+">0</span>
+      <span class="stat-label">Elite Clients</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number" data-target="98" data-suffix="%">0</span>
+      <span class="stat-label">Return Rate</span>
+    </div>
+  </section>
+
+  <!-- 8. Testimonials (Magnetic Hover) -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="section-header center">
+      <span class="accent-label">The Whisperings</span>
+      <h2 class="section-title split-text">Words of Acclaim</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card magnetic" data-cursor="hover">
+        <p class="quote">"An experience that transcends mere grooming. It is an awakening."</p>
+        <span class="author">— Eleanor V.</span>
+      </div>
+      <div class="testimonial-card magnetic" data-cursor="hover">
+        <p class="quote">"The only sanctuary I trust with my image before a premiere."</p>
+        <span class="author">— Marcus T.</span>
+      </div>
+      <div class="testimonial-card magnetic" data-cursor="hover">
+        <p class="quote">"Maison Éclat redefines what it means to be truly pampered."</p>
+        <span class="author">— Sophia L.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Booking CTA -->
+  <section class="cta-section" id="booking">
+    <canvas id="particle-canvas"></canvas>
+    <div class="cta-content">
+      <h2 class="display-text small">SECURE YOUR APPOINTMENT</h2>
+      <button class="btn btn-glow" data-cursor="hover">Reserve</button>
+    </div>
+  </section>
+
+  <!-- 10. Footer -->
+  <footer class="footer">
+    <div class="footer-logo">MÉ</div>
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">Journal</a>
+      <a href="#">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Maison Éclat. All Rights Reserved.</p>
+  </footer>
+
+  <!-- GSAP & Plugins -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <!-- Lenis -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  
+  <!-- Main JS -->
+  <script src="main.js"></script>
+</body>
+</html>
