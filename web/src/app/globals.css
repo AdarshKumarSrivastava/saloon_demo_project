@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8D5A3;
+  --color-obsidian: #0A0A0A;
+  --color-charcoal: #1A1A1A;
+  --color-ivory: #F5F0E8;
+  --color-warm-white: #FDFAF5;
+
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', sans-serif;
+  --font-accent: 'Cinzel', serif;
+
+  --color-background: var(--color-obsidian);
+  --color-foreground: var(--color-ivory);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    /* For a sleek, smooth scrolling experience globally if needed */
+    @apply antialiased selection:bg-gold selection:text-obsidian;
+  }
+}
+
+/* Base resets & utilities */
+html { scroll-behavior: smooth; }
