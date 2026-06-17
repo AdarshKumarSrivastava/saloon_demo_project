@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 export default function Pricing() {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -31,13 +30,13 @@ export default function Pricing() {
         <span className="accent-label">Investment</span>
         <h2 className="section-title">Curated Offerings</h2>
       </div>
-      
+
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
         {Object.keys(grouped).map(category => (
           <div key={category} className="pricing-category">
             <h3 className="pricing-category-title">{category}</h3>
             {grouped[category].map(item => (
-              <div key={item.name} className="pricing-item-wrap" style={{marginBottom: '2rem'}}>
+              <div key={item.name} className="pricing-item-wrap" style={{ marginBottom: '2rem' }}>
                 <div className="pricing-item">
                   <span className="pricing-item-name">{item.name}</span>
                   <div className="pricing-item-dots"></div>
